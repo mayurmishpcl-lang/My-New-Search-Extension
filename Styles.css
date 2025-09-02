@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('Images/Goku.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.search-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.search-btn {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: darkorange;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
